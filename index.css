@@ -1,0 +1,16 @@
+#parent {
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+}
+#parent>div{
+    background: #ffff;
+}
+#child1 {
+    font-size: 35px;
+    font-style: italic;
+    font: 200;
+    padding-left: 10px;
+    padding-top: 100px ;
+  }
